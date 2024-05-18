@@ -1,0 +1,38 @@
+h1 {
+  color: rgb(16, 16, 212);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+  font-family: bold;
+  text-align: center;
+}
+
+.articulos {
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 30pt;
+}
+
+#estructura {
+  color: rgb(22, 236, 22);
+  font-size: 16px;
+  text-align: justify;
+}
+
+#estilos {
+  color: rgb(189, 45, 189);
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li:hover a {
+  color: rgb(200, 138, 23);
+}
