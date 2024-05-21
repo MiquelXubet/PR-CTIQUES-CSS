@@ -1,0 +1,129 @@
+.container-menu {
+  background-color: rgb(209, 248, 235);
+  display: flex;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.container-rrss {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 15%;
+}
+
+.container-menu ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 2em;
+  font-weight: bold;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 85%;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.container-principal {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 25px;
+  max-width: 60%;
+}
+
+h1 {
+  color: rgb(6, 6, 201);
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+}
+
+p {
+  color: rgb(6, 6, 201);
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.container-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 70px auto;
+}
+
+aside h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+aside p {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+aside label {
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: rgb(1, 1, 93);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  padding: 20px 50px;
+}
+
+input {
+  border-radius: 15px;
+  font-size: 1.2em;
+  height: 15px;
+  padding: 8px;
+}
+
+.checkbox-label {
+  color: white;
+  font-size: 1.2em;
+}
+
+button {
+  border-radius: 15px;
+  color: rgb(1, 1, 93);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: yellowgreen;
+  font-size: 2em;
+}
