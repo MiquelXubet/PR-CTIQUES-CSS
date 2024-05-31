@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Web Completa</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="tokio"
+        src="../media/img/logotokio.jpeg"
+        alt="logo-escuela-tokio"
+      />
+      <nav class="container-menu">
+        <ul>
+          <li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
+          <li><a href="./nuestros-servicios.html">SERVICIOS</a></li>
+          <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+        <div class="container-rrss">
+          <a href="#"
+            ><img
+              class="logo"
+              src="../media/img/logo-facebook.png"
+              alt="logo-facebook"
+          /></a>
+          <a href="#"
+            ><img
+              class="logo"
+              src="../media/img/logo-instagram.png"
+              alt="logo-instagram"
+          /></a>
+          <a href="#"
+            ><img
+              class="logo"
+              src="../media/img/logo-youtube.webp"
+              alt="logo-youtube"
+          /></a>
+        </div>
+      </nav>
+    </header>
+    <div class="container-principal">
+      <h1>Bienvenido a CEDEMA</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ad
+        ea pariatur voluptatibus doloremque debitis deleniti quo reiciendis
+        quasi blanditiis maiores id veritatis aliquid, aut rerum delectus fugit
+        unde aliquam magni sequi harum odit laboriosam accusantium. Corporis
+        animi in, magnam ad quam consequuntur voluptate porro culpa labore,
+        earum iure ab?
+      </p>
+      <div class="container-info">
+        <img
+          class="imagen-container"
+          src="../media/img/entrada.webp"
+          alt="foto-recepción-clínica"
+        />
+        <img
+          class="imagen-container"
+          src="../media/img/clinica_dental.jpg"
+          alt="imagen-paciente"
+        />
+        <img
+          class="imagen-container"
+          src="../media/img/clinica.jpg"
+          alt="imagen-consulta"
+        />
+      </div>
+      <aside>
+        <div class="container-form">
+          <form action="procesar_registro" method="post">
+            <h4>REGÍSTRATE</h4>
+            <p>
+              Primera consulta y limpieza bucal GRATIS,<br />
+              sin compromiso de continuidad.
+            </p>
+            <div>
+              <label for="Name">Nombre:</label>
+              <input
+                type="text"
+                id="Name"
+                placeholder="Escriba aquí su nombre"
+                required
+              />
+            </div>
+            <br />
+            <div>
+              <label for="Apellidos">Apellidos:</label>
+              <input
+                type="text"
+                id="Apellidos"
+                placeholder="Escriba aquí sus apellidos"
+                required
+              />
+            </div>
+            <br />
+            <div>
+              <label>Sexo:</label>
+              <input
+                type="radio"
+                id="sexo-m"
+                name="sexo"
+                value="Masculino"
+                required
+              />
+              <label for="sexo-m">Masculino</label>
+              <input
+                type="radio"
+                id="sexo-f"
+                name="sexo"
+                value="Femenino"
+                required
+              />
+              <label for="sexo-f">Femenino</label>
+            </div>
+            <br />
+            <div>
+              <label for="Nacimiento">Nacimiento:</label>
+              <input type="date" id="Nacimiento" required />
+            </div>
+            <br />
+            <div>
+              <label for="Telefono">Teléfono:</label>
+              <input
+                type="tel"
+                id="Telefono"
+                placeholder="Escriba aquí su Teléfono"
+                required
+              />
+            </div>
+            <br />
+            <div>
+              <label for="mail">Email:</label>
+              <input
+                type="email"
+                id="mail"
+                placeholder="Escriba aquí su Email"
+                required
+              />
+            </div>
+            <br />
+            <div>
+              <input type="checkbox" id="Legal" name="Legal" />
+              <label for="Legal" class="checkbox-label"
+                >Soy paciente de la Clínica Dental CEDEMA.</label
+              >
+            </div>
+            <br />
+            <button type="submit">Enviar Datos</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+    <footer>Copiright Clínicas Cedema 2024</footer>
+  </body>
+</html>

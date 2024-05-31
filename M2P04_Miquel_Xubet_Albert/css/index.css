@@ -1,0 +1,471 @@
+@media only screen and (max-width: 768px) {
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-menu {
+    align-items: center;
+    background-color: rgb(209, 248, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+    width: 100%;
+  }
+
+  .tokio {
+    display: flex;
+    height: 10em;
+    padding: 20px;
+    width: 10em;
+  }
+
+  .container-rrss {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 2.5em;
+  }
+
+  .container-menu ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.8em;
+    font-weight: bold;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+
+  h1 {
+    margin-top: 3em;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .container-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .imagen-container {
+    border-radius: 50%;
+  }
+
+  .container-principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+  }
+
+  .container-form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+  }
+
+  aside h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  aside p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  aside label {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  form {
+    background-color: rgb(1, 1, 93);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    padding: 20px 50px;
+  }
+
+  input {
+    border-radius: 15px;
+    font-size: 1.2em;
+    height: 15px;
+    padding: 8px;
+  }
+
+  .checkbox-label {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  button {
+    border-radius: 15px;
+    color: rgb(1, 1, 93);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: rgb(209, 248, 235);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-menu {
+    align-items: center;
+    background-color: rgb(209, 248, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+    width: 100%;
+  }
+
+  .tokio {
+    display: flex;
+    height: 10em;
+    padding: 20px;
+    width: 10em;
+  }
+
+  .container-rrss {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 2.5em;
+  }
+
+  .container-menu ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.8em;
+    font-weight: bold;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+
+  h1 {
+    margin-top: 3em;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .container-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .imagen-container {
+    border-radius: 50%;
+  }
+
+  .container-principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+  }
+
+  .container-form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+  }
+
+  aside h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  aside p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  aside label {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  form {
+    background-color: rgb(1, 1, 93);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    padding: 20px 50px;
+  }
+
+  input {
+    border-radius: 15px;
+    font-size: 1.2em;
+    height: 15px;
+    padding: 8px;
+  }
+
+  .checkbox-label {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  button {
+    border-radius: 15px;
+    color: rgb(1, 1, 93);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: rgb(209, 248, 235);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .container-menu {
+    background-color: rgb(209, 248, 235);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .tokio {
+    padding: 20px;
+  }
+
+  .container-rrss {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 15%;
+  }
+
+  .container-menu ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 85%;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+
+  .container-principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin: 25px;
+    padding: 25px;
+    width: 90%;
+  }
+
+  h1 {
+    color: rgb(6, 6, 201);
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  p {
+    color: rgb(6, 6, 201);
+    font-size: 1.2em;
+    text-align: justify;
+    width: 90%;
+  }
+
+  .imagen-container {
+    border-radius: 50%;
+    height: 350px;
+    width: auto;
+  }
+
+  .container-form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+  }
+
+  aside h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  aside p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  aside label {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  form {
+    background-color: rgb(1, 1, 93);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    padding: 20px 50px;
+  }
+
+  input {
+    border-radius: 15px;
+    font-size: 1.2em;
+    height: 15px;
+    padding: 8px;
+  }
+
+  .checkbox-label {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  button {
+    border-radius: 15px;
+    color: rgb(1, 1, 93);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  button:hover {
+    background-color: yellowgreen;
+    font-size: 2em;
+  }
+
+  footer {
+    background-color: rgb(209, 248, 235);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+}
