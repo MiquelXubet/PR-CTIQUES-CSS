@@ -8,12 +8,13 @@
   </head>
   <body>
     <header>
-      <img
-        class="tokio"
-        src="../media/img/logotokio.jpeg"
-        alt="logo-escuela-tokio"
-      />
       <nav class="container-menu">
+        <a href="./index.html">
+          <img
+            class="tokio"
+            src="../media/img/logotokio.jpeg"
+            alt="logo-escuela-tokio"
+        /></a>
         <ul>
           <li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
           <li><a href="./nuestros-servicios.html">SERVICIOS</a></li>
@@ -68,91 +69,28 @@
           alt="imagen-consulta"
         />
       </div>
-      <aside>
-        <div class="container-form">
-          <form action="procesar_registro" method="post">
-            <h4>REGÍSTRATE</h4>
-            <p>
-              Primera consulta y limpieza bucal GRATIS,<br />
-              sin compromiso de continuidad.
-            </p>
-            <div>
-              <label for="Name">Nombre:</label>
-              <input
-                type="text"
-                id="Name"
-                placeholder="Escriba aquí su nombre"
-                required
-              />
-            </div>
-            <br />
-            <div>
-              <label for="Apellidos">Apellidos:</label>
-              <input
-                type="text"
-                id="Apellidos"
-                placeholder="Escriba aquí sus apellidos"
-                required
-              />
-            </div>
-            <br />
-            <div>
-              <label>Sexo:</label>
-              <input
-                type="radio"
-                id="sexo-m"
-                name="sexo"
-                value="Masculino"
-                required
-              />
-              <label for="sexo-m">Masculino</label>
-              <input
-                type="radio"
-                id="sexo-f"
-                name="sexo"
-                value="Femenino"
-                required
-              />
-              <label for="sexo-f">Femenino</label>
-            </div>
-            <br />
-            <div>
-              <label for="Nacimiento">Nacimiento:</label>
-              <input type="date" id="Nacimiento" required />
-            </div>
-            <br />
-            <div>
-              <label for="Telefono">Teléfono:</label>
-              <input
-                type="tel"
-                id="Telefono"
-                placeholder="Escriba aquí su Teléfono"
-                required
-              />
-            </div>
-            <br />
-            <div>
-              <label for="mail">Email:</label>
-              <input
-                type="email"
-                id="mail"
-                placeholder="Escriba aquí su Email"
-                required
-              />
-            </div>
-            <br />
-            <div>
-              <input type="checkbox" id="Legal" name="Legal" />
-              <label for="Legal" class="checkbox-label"
-                >Soy paciente de la Clínica Dental CEDEMA.</label
-              >
-            </div>
-            <br />
-            <button type="submit">Enviar Datos</button>
-          </form>
-        </div>
-      </aside>
     </div>
+    <table>
+      <tr>
+        <th colspan="6">Horarios de la clínica</th>
+      </tr>
+      <tr>
+        <td>Lunes</td>
+        <td>Martes</td>
+        <td>Miércoles</td>
+        <td>Jueves</td>
+        <td>Viernes</td>
+        <td>Sábado</td>
+      </tr>
+      <tr>
+        <td>9.00 a 18.00</td>
+        <td>9.00 a 18.00</td>
+        <td>9.00 a 19.00</td>
+        <td>9.00 a 19.00</td>
+        <td>9.00 a 17.00</td>
+        <td>Cerrado</td>
+      </tr>
+    </table>
     <footer>Copiright Clínicas Cedema 2024</footer>
   </body>
 </html>
